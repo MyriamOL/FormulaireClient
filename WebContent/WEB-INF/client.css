@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+body {
+	width :100vw;
+	height:100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.intitule {
+	display: flex;
+	flex-direction: column ;
+}
+.ligne{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom:10px;
+	align-items:center;
+}
+
+.bouton{
+	margin-top:15px;
+	display: flex;
+	justify-content: center ;
+}
+
+.container{
+	flex-direction: column;
+	display:flex;
+	width: 30%;
+	
+	
+}
+h3{
+    text-align: center;
+}
+input{
+    margin: 0rem 0.4rem;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="WEB-INF/client.css">
+</head>
+<body>
+
+<div class = "container">
+
+	<h3>Information Client</h3>
+	<form action="servlet" method="POST">
+	        
+		<div class="intitule">
+			<div class = "ligne">nom <em>*</em> <input type="text" name="nom" /></div>
+			<div class = "ligne">Prenom <input type="text" name="prenom"/></div>
+			<div class = "ligne">Adresse de Livraison<em>*</em>  <input type="text" name="adresseLivraison" /></div>
+			<div class = "ligne">Telephone<em>*</em> <input type="tel" name="tel" /></div>
+			<div class = "ligne">Email<input type="email" name="email" /></div>
+
+		</div>
+		
+	<h3>Information Commande</h3>
+	        
+		<div class="intitule">
+			<div class = "ligne">date  <input type="date" name="date" /></div>
+			<div class = "ligne">Montant <em>*</em> <input type="number" name="montant"/></div>
+			<div class = "ligne">Mode de paiement <em>*</em> <input type="text" name="modedepaiement" /></div>
+			<div class = "ligne">Statut du paiement<em>*</em><input type="text" name="statutPaiement" /></div>
+			<div class = "ligne">Mode de Livraison<em>*</em><input type="text" name="modeLivraison" /></div>
+			<div class = "ligne">Statut de livraison<em>*</em><input type="text" name="statutLivraison" /></div>
+
+		</div>
+		
+		<div class="bouton"> 
+		<input type="submit" value="VaLider" /> <input type="reset"
+			value="Annuler" />
+			</div>
+	</form>
+	</div>
+
+
+
+
+</body>
+</html>
